@@ -3,8 +3,7 @@ import os
 from fdfgen import forge_fdf
 import sys
 
-if __name__ == "__main__":
-    data = json.load(open(os.path.join("Characters", sys.argv[1]+'.json')))
+def fill_pdf(data):
     level2 = int(data.get('level'))//2
     info = dict([
             ('str_mod', data.get('str', '')[1]),
@@ -391,7 +390,12 @@ if __name__ == "__main__":
             ('wealth4', data.get('wealth4', '')),
             ]
     fields += list(info.items())
+    return fields
+
+if __name__ == "__main__":
+    data = json.load(open(os.path.join("dndgen/Characters", sys.argv[1]+'.json')))
+    fields = fill_pdf(data)
     fdf = forge_fdf("", fields, [], [], [])
-    fdf_file = open("data.fdf", "wb")
+    fdf_file = open("dndgen/data.fdf", "wb")
     fdf_file.write(fdf)
     fdf_file.close()

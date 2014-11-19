@@ -302,9 +302,9 @@ class Converter(object):
         return self.char
 
 if __name__ == "__main__":
-    data = open(os.path.join('Characters', sys.argv[1])).read()
+    data = open(os.path.join('dndgen/Characters', sys.argv[1])).read()
     conv = Converter()
     char = conv.convert(data)
 
-    with open(os.path.join('Characters', sys.argv[1] + '.json'), "w") as f:
+    with open(os.path.join('dndgen/Characters', sys.argv[1] + '.json'), "w") as f:
         json.dump(char, f, indent=2, sort_keys=True)

@@ -12,7 +12,7 @@ import sys
 from converter import POWERS, get_power_info, get_weapon_info
 
 
-def gen(data):
+def gen(data, output):
     style = getSampleStyleSheet()
     headlineStyle = style["Heading2"]
     simple_paragraph = style["Normal"]
@@ -122,7 +122,7 @@ def gen(data):
             block.style = highlighted_paragraph2
             all_blocks.append(block)
 
-    doc = BaseDocTemplate(sys.argv[1] + "_Powers.pdf", pagesize=portrait(A4),
+    doc = BaseDocTemplate(output, pagesize=portrait(A4),
                           leftMargin=1.5*cm, rightMargin=1.5*cm,
                           topMargin=1.5*cm, bottomMargin=1.5*cm)
     frame_count = 2
@@ -141,5 +141,5 @@ def gen(data):
 
 
 if __name__ == "__main__":
-    data = json.load(open(os.path.join("Characters", sys.argv[1]+'.json')))
-    gen(data)
+    data = json.load(open(os.path.join("dndgen/Characters", sys.argv[1]+'.json')))
+    gen(data, "dndgen/" + sys.argv[1] + "_Powers.pdf")
