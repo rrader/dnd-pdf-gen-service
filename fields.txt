@@ -1,0 +1,2190 @@
+---
+FieldType: Text
+FieldName: class
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: paragon_path
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: epic_destiny
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: total_xp
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: race
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: size
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: age
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: gender
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: height
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: weight
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: deity
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: alignment
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: affiliations
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: player_name
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: level
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: initiative_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: str_mod
+FieldFlags: 1
+FieldValue: -5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: con_mod
+FieldFlags: 1
+FieldValue: -5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: dex_mod
+FieldFlags: 1
+FieldValue: -5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: int_mod
+FieldFlags: 1
+FieldValue: -5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: wis_mod
+FieldFlags: 1
+FieldValue: -5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: cha_mod
+FieldFlags: 1
+FieldValue: -5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: initiative_dex
+FieldFlags: 1
+FieldValue: -5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: initiative_score
+FieldFlags: 1
+FieldValue: -5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: con
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: dex
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: int
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: wis
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: str_mod_level
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: con_mod_level
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: dex_mod_level
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: int_mod_level
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: wis_mod_level
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: cha_mod_level
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: initiative_level
+FieldFlags: 1
+FieldValue: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ref_level
+FieldFlags: 1
+FieldValue: 10
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ref_ability
+FieldFlags: 1
+FieldValue: -5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ref_class
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ref_feat
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ref_enh
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ref_misc1
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ref_misc2
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: fort_level
+FieldFlags: 1
+FieldValue: 10
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: fort_ability
+FieldFlags: 1
+FieldValue: -5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: fort_class
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: fort_feat
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: fort_enh
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: fort_misc1
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: fort_misc2
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ac_armor
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ac_class
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ac_feat
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ac_enh
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ac_misc1
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ac_misc2
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ac_level
+FieldFlags: 1
+FieldValue: 10
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ac
+FieldFlags: 1
+FieldValue: 10
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: fort
+FieldFlags: 1
+FieldValue: 5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ref
+FieldFlags: 1
+FieldValue: 5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: str
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: speed_item
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: speed_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: speed_armor
+FieldFlags: 0
+FieldValue: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: speed_base
+FieldFlags: 0
+FieldValue: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: initiative_conditions
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ref_conditions
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: fort_conditions
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: speed
+FieldFlags: 1
+FieldValue: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: pass_insight
+FieldFlags: 1
+FieldValue: 5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: pass_perception
+FieldFlags: 1
+FieldValue: 5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: pass_insight_skill
+FieldFlags: 1
+FieldValue: -5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: pass_perception_skill
+FieldFlags: 1
+FieldValue: -5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: ac_conditions
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: speed_special
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: acrobatics
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: acrobatics_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: acrobatics_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: acrobatics_pen
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: acrobatics_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: arcana
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: arcana_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: arcana_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: arcana_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: athletics
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: athletics_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: athletics_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: athletics_pen
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: athletics_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: bluff
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: bluff_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: bluff_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: bluff_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: diplomacy
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: diplomacy_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: diplomacy_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: diplomacy_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: dungeoneering
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: dungeoneering_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: dungeoneering_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: dungeoneering_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: endurance
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: endurance_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: endurance_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: endurance_pen
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: endurance_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: heal
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: heal_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: heal_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: heal_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: history
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: history_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: history_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: history_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: insight
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: insight_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: insight_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: insight_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: intimidate
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: intimidate_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: intimidate_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: intimidate_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: nature
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: nature_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: nature_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: nature_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: perception
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: perception_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: perception_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: perception_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: religion
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: religion_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: religion_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: religion_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: stealth
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: stealth_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: stealth_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: stealth_pen
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: stealth_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: streetwise
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: streetwise_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: streetwise_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: streetwise_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: thievery
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: thievery_mod
+FieldFlags: 1
+FieldValue: -5
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: thievery_trnd
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: thievery_pen
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: thievery_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: senses_special
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: will_level
+FieldFlags: 1
+FieldValue: 10
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: will_ability
+FieldFlags: 1
+FieldValue: -5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: will
+FieldFlags: 1
+FieldValue: 5
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_level
+FieldFlags: 1
+FieldValue: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_ability
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_class
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_prof
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_feat
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_enh
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_misc
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_level2
+FieldFlags: 1
+FieldValue: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_ability2
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_prof2
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_feat2
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_enh2
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_misc2
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_bonus
+FieldFlags: 1
+FieldValue: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_bonus2
+FieldFlags: 1
+FieldValue: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: max_hp
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace_class2
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: surge_value
+FieldFlags: 1
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: bloodied
+FieldFlags: 1
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: attack_workspace2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: save_throw_mods
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: resistances
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: current_conditions
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: surger_day
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: action_points
+FieldFlags: 0
+FieldValue: 1
+FieldValueDefault: 1
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: will_conditions
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: character_name
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: race_ability_mods
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: race8
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: class2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: class3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: class4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: class5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: class6
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: class7
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: class8
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: class9
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: class10
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: class11
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: class12
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: class13
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: class14
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: lang1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: lang2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: lang3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: class1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat6
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat7
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat8
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat9
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat10
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat11
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat12
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat13
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat14
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat15
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat16
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: attack_workspace
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: damage_workspace2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: will_class
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: will_feat
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: will_enh
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: will_misc1
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: will_misc2
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: damage_workspace_ability
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: damage_workspace_misc2
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: damage_workspace_feat
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: damage_workspace_enh
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: damage_workspace_misc1
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: damage_workspace_feat2
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: damage_workspace_enh2
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: damage_workspace_misc12
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: damage_workspace_misc22
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: damage_workspace_ability2
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: damage_workspace_damage2
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: action_points_additional
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: cha
+FieldFlags: 0
+FieldValue: 0
+FieldValueDefault: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: basic_defense1
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: basic_attack1
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: basic_attack2
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: basic_defense2
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: basic_attack3
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: basic_defense3
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: basic_attack4
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: basic_defense4
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: damage_workspace_damage
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: damage_workspace
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: basic_weapon1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: basic_damage1
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: basic_damage2
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: basic_weapon2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: basic_weapon3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: basic_weapon4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: basic_damage3
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: basic_damage4
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: race7
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: race1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: race2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: race3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: race4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: race5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: race6
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: feat17
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: atwill2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: atwill3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: atwill4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: atwill5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: atwill1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: encounter2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: encounter3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: encounter4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: encounter5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: encounter6
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: encounter1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: daily1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: daily2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: daily3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: daily4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: daily5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: daily6
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: utility1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: utility2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: utility3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: utility4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: utility5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: utility6
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: utility7
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: utility8
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic6
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic7
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic8
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic9
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic10
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic11
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic12
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic13
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic14
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic15
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic16
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic17
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic18
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic19
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic20
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic21
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic22
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic23
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic24
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: magic25
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: atwill6
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: personality1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: personality2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: personality3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: personality4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: personality5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: personality6
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: mannerisms1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: mannerisms2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: mannerisms3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: mannerisms4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: mannerisms5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: background1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: background2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: background3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: background4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: equipment2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: equipment3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: equipment4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: equipment5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: equipment6
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: equipment7
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: equipment8
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: equipment9
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: equipment10
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: equipment1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: rituals1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: rituals2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: rituals3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: rituals4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: rituals5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: rituals6
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: rituals7
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: rituals8
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: rituals9
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: rituals10
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: session1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: session2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: session3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: session4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: session5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: session6
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: session7
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: session8
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: session9
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: session10
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: session11
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: session12
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: companion2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: companion3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: companion4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: companion5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: companion6
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: companion7
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: companion8
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: companion1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: notes2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: notes3
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: notes4
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: notes5
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: notes6
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: notes7
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: notes8
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: notes1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: wealth1
+FieldFlags: 4096
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: wealth2
+FieldFlags: 4096
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: wealth3
+FieldFlags: 4096
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: wealth4
+FieldFlags: 4096
+FieldJustification: Left

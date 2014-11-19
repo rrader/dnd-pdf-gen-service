@@ -1,0 +1,6 @@
+__cache__
+*.pyc
+*.pdf
+*.fdf
+.idea
+Characters

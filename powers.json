@@ -1,0 +1,218 @@
+{
+    "Melee Basic Attack": {
+        "charsheet": "yes",
+        "title": "Basic Attack",
+        "action": "Standard",
+        "target": "one creature",
+        "attack": "Str",
+        "vs": "AC",
+        "range": "Melee weapon",
+        "hit": "1x[{W}]{c[str][1]}.<br /> <i>Increase damage to 2x[{W}]{c[str][1]} at 21st level.</i>"
+    },
+    "Ranged Basic Attack": {
+        "charsheet": "yes",
+        "title": "Basic Attack",
+        "action": "Standard",
+        "target": "one creature",
+        "attack": "Dex",
+        "vs": "AC",
+        "range": "Ranged weapon",
+        "hit": "1x[{W}]{c[dex][1]}.<br /> <i>Increase damage to 2x[{W}]{c[dex][1]} at 21st level.</i>"
+    },
+    "Second Wind": {
+        "charsheet": "no",
+        "title": "Action",
+        "action": "Standard",
+        "target": "yourself",
+        "is_weapon": "no",
+        "range": "personal",
+        "comment": "<b>Effect:</b> Allows a character to spend a healing surge to regain hit points and gain a +2 bonus to all defenses until the start of the character's next turn"
+    },
+    "Priest's Shield": {
+        "charsheet": "yes",
+        "title": "Cleric Attack 1",
+        "action": "Standard",
+        "target": "one creature",
+        "attack": "Str",
+        "vs": "AC",
+        "range": "Melee weapon",
+        "hit": "1x[{W}]{c[str][1]} damage<br /> <i>21st level: 2x[{W}]{c[str][1]}</i>",
+        "hit_comment": "...and you and one ally adjacent to you gains a +1 power bonus to AC until the end of your next turn."
+    },
+    "Healing Strike": {
+        "charsheet": "yes",
+        "title": "Cleric Attack 1",
+        "action": "Standard",
+        "target": "one creature",
+        "attack": "Str",
+        "vs": "AC",
+        "range": "Melee weapon",
+        "hit": "2x[{W}]{c[str][1]} damage",
+        "hit_comment": "...and the target is marked until the end of your next turn. In addition, you or one ally within 5 squares of you can spend a healing surge."
+    },
+    "Avenging Flame": {
+        "charsheet": "yes",
+        "title": "Cleric Attack 1",
+        "action": "Standard",
+        "target": "one creature",
+        "attack": "Str",
+        "vs": "AC",
+        "range": "Melee weapon",
+        "hit": "2x[{W}]{c[str][1]} damage",
+        "hit_comment": "and ongoing 5 fire damage (save ends). If the target attacks on its turn, it can’t make a saving throw against the ongoing damage on that turn.",
+        "comment": "<b>Miss:</b> Half damage"
+    },
+    "Divine Aid": {
+        "charsheet": "yes",
+        "title": "Cleric Utility 2",
+        "action": "Standard",
+        "target": "You or one ally",
+        "is_weapon": "no",
+        "range": "Ranged 5",
+        "comment": "<b>Effect:</b> The target makes a saving throw with a bonus equal to your Charisma modifier ({c[cha][1]})",
+        "utility": "yes"
+    },
+    "Righteous Brand": {
+        "charsheet": "yes",
+        "title": "Cleric Attack 1",
+        "action": "Standard",
+        "target": "one creature",
+        "attack": "Str",
+        "vs": "AC",
+        "range": "Melee weapon",
+        "hit": "1x[{W}]{c[str][1]} damage<br /> <i>21st level: 2x[{W}]{c[str][1]}</i>",
+        "hit_comment": "...and one ally within 5 squares of you gains a +3 power bonus to melee attack rolls against the target until the end of your next turn."
+    },
+    "Divine Fortune": {
+        "charsheet": "no",
+        "title": "Action",
+        "action": "Free",
+        "target": "yourself",
+        "is_weapon": "no",
+        "range": "personal",
+        "comment": "<b>Effect:</b> You gain a +1 bonus to your next attack roll or saving throw before the end of your next turn."
+    },
+    "Turn Undead": {
+        "charsheet": "yes",
+        "title": "Cleric Power",
+        "action": "Standard",
+        "target": "Each undead creature within this power's burst",
+        "attack": "Wis",
+        "vs": "Will",
+        "range": "Close burst 2",
+        "hit": "1d8{c[wis][1]}[Wis] damage, and you push the target a number of squares up to 3{c[cha][1]}[Cha]. The target is immobilized until the end of your next turn."
+    },
+    "Healing Word": {
+        "charsheet": "yes",
+        "title": "Cleric Utility",
+        "action": "Minor",
+        "target": "one ally within this power's range, or the user",
+        "range": "Close burst 5",
+        "is_weapon": "no",
+        "comment": "<i><b>This power can be used twice per encounter, but no more than once per round.</b></i><br /><b>Effect:</b> The target can spend a healing surge. If so, he or she regains an additional 1d6 hit points. [for upper levels - see PHB]",
+        "utility": "yes"
+    },
+    "Grab": {
+        "charsheet": "no"
+    },
+    "Escape": {
+        "charsheet": "no"
+    },
+    "Move grabbed target": {
+        "charsheet": "no"
+    },
+    "Bull Rush": {
+        "charsheet": "no"
+    },
+    "Spend an Action Point": {
+        "charsheet": "no"
+    },
+    "Get Over Here": {
+        "utility": "yes",
+        "level": 2
+    },
+    "Feather Fall": {
+        "utility": "yes",
+        "level": 2
+    },
+    "Ghost Sound": {
+        "charsheet": "no"
+    },
+    "Disrupt Undead": {
+        "utility": "yes"
+    },
+    "Light": {
+        "charsheet": "no"
+    },
+    "Mage Hand": {
+        "charsheet": "no"
+    },
+    "Prestidigitation":{
+        "charsheet": "no"
+    },
+    "Piercing Strike": {
+        "charsheet": "yes",
+        "title": "Rogue Attack 1",
+        "action": "Standard",
+        "target": "one creature",
+        "attack": "Dex",
+        "vs": "Reflex",
+        "range": "Melee weapon",
+        "hit": "1x[{W}]{c[dex][1]} damage<br /> <i>21st level: 2x[{W}]{c[dex][1]}</i>",
+        "comment": "<b>Requirement:</b> wielding a light blade"
+    },
+    "Sly Flourish": {
+        "charsheet": "yes",
+        "title": "Rogue Attack 1",
+        "action": "Standard",
+        "target": "one creature",
+        "attack": "Dex",
+        "vs": "AC",
+        "range": "Melee weapon;Ranged weapon",
+        "hit": "1x[{W}]{c[dex][1]}[dex]{c[cha][1]}[cha] dmg<br /> <i>21st level: 2x[{W}]{c[dex][1]}{c[cha][1]}</i>",
+        "comment": "<b>Requirement:</b> wielding crossbow, light blade, or sling"
+    },
+    "Infernal Wrath": {
+        "charsheet": "yes",
+        "title": "Tiefling racial power",
+        "action": "Free",
+        "target": "the triggering enemy",
+        "attack": "trigger",
+        "range": "Close burst 10",
+        "hit": "The target takes 1d6({c[int][1]}[int] OR {c[cha][1]}[cha]) fire damage.<br /> <i>11 level: 2d6({c[int][1]}[int] OR {c[cha][1]}[cha])</i><br /> <i>21 level: 3d6({c[int][1]}[int] OR {c[cha][1]}[cha])</i>",
+        "comment": "<b>Trigger:</b> an enemy within this power's range hits you"
+    },
+    "Torturous Strike": {
+        "charsheet": "yes",
+        "title": "Rogue Attack 1",
+        "action": "Standard",
+        "target": "one creature",
+        "attack": "Dex",
+        "vs": "AC",
+        "range": "Melee weapon",
+        "hit": "2x[{W}]{c[dex][1]}[dex] dmg",
+        "hit_comment": "<i>Brutal Scoundrel:<i> You gain a <u>bonus to the damage roll <b>{c[str][1]}[str]</b></u>.",
+        "comment": "<b>Requirement:</b> wielding a light blade"
+    },
+    "Tumble": {
+        "charsheet": "yes",
+        "utility": "yes",
+        "title": "Rogue Utility 2",
+        "action": "Move",
+        "target": "yourself",
+        "range": "personal",
+        "is_weapon": "no",
+        "comment": "<b>Effect:</b> You can shift a number of squares equal to one-half up to your speed<br/><b>Requirement:</b> Acrobatics trained"
+    },
+    "Blinding Barrage": {
+        "charsheet": "yes",
+        "title": "Rogue Attack 1",
+        "action": "Standard",
+        "target": "each enemy user can see within the area of effect",
+        "attack": "Dex",
+        "vs": "AC",
+        "range": "Close blast 3",
+        "hit": "{c[dex][1]}[dex] damage, and the target is blinded until the end of your next turn.",
+        "comment": "<b>Miss:</b> {c[dex][1]}[dex] damage, and the target is not blinded."
+    }
+}

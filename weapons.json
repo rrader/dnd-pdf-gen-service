@@ -1,0 +1,22 @@
+{
+    "Unarmed Melee": {
+        "range": "Melee weapon",
+        "W": "1d4"
+    },
+    "Warhammer": {
+        "range": "Melee weapon",
+        "W": "1d10"
+    },
+    "Sling": {
+        "range": "Ranged weapon",
+        "W": "1d6"
+    },
+    "Shortbow": {
+        "range": "Ranged weapon",
+        "W": "1d8"
+    },
+    "Daggers": {
+        "range": "Melee weapon",
+        "W": "1d4"
+    }
+}
