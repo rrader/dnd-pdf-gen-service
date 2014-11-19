@@ -9,7 +9,10 @@ from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, Table, Tabl
     PageTemplate, KeepTogether, flowables
 from reportlab.lib import colors
 import sys
-from converter import POWERS, get_power_info, get_weapon_info
+try:
+    from dndgen.converter import POWERS, get_power_info, get_weapon_info
+except ImportError:
+    from converter import POWERS, get_power_info, get_weapon_info
 
 
 def gen(data, output):
