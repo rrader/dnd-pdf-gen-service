@@ -1,6 +1,6 @@
-__cache__
+venv
 *.pyc
-*.pdf
-*.fdf
+staticfiles
 .idea
-Characters
+*.pdf
+dndgen/Characters

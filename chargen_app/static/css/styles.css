@@ -1,0 +1,12 @@
+body {
+	background-color: #fefefe;
+}
+
+.units-container {
+	margin: 0px 50px 0px 50px;
+}
+
+.block {
+	background-color: #eee;
+	padding: 20px;
+}
