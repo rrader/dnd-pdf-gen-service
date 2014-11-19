@@ -3,18 +3,18 @@
 {% block content %}
     <div class="units-row">
         <div class="unit-30 block">
-            <h2>1. Use basic Dockerfile</h2>
-            <p>Go to <a href="https://github.com/rrader/docker-jenkins-slave">github</a> and follow instructions</p>
-            <p><a href="http://antigluk.blogspot.com/2013/10/docker-jenkins.html">Guide [Russian]</a></p>
-            <img src="/static/docker-logo.png" style="height:200px" />
+            <h2>1. Go to <a href="http://www.pathguy.com/cg4.htm">pathguy.com/cg4.htm</a></h2>
+            <p><i>and generate your character! Then just copy all text in window opened after generation</i></p>
+            <img src="/static/blog_d20_transparent.png" style="height:200px" />
         </div>
         <div class="unit-10">
-            <h1>OR</h1>
+            <h1>THEN</h1>
         </div>
         <div class="unit-60 block">
-            <h2>2. Generate your own Dockerfile</h2>
+            <h2>2. Paste generated character here</h2>
 
-            <form method="get" action="/generate">
+            <form method="post" action="/generate">
+              {% csrf_token %}
               <table>
                 {% for field in form %}
                   <tr>
@@ -26,7 +26,7 @@
                 {% endfor %}
               </table>
               <hr/>
-              <button type="submit" class="btn-green width-50">Get my Dockerfile</button>
+              <button type="submit" class="btn-green width-50">Get my nice character sheet</button>
             </form>
         </div>
     </div>

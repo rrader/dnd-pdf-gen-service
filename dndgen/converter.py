@@ -2,8 +2,8 @@ import sys, os
 import json
 import re
 
-POWERS = json.load(open("powers.json"))
-WEAPONS = json.load(open("weapons.json"))
+POWERS = json.load(open("dndgen/powers.json"))
+WEAPONS = json.load(open("dndgen/weapons.json"))
 
 
 def check_flag(name, flag, default):
@@ -201,6 +201,7 @@ class Converter(object):
             char[key] = groups
 
     def convert(self, data):
+        data = data.replace('\r\n', '\n')
         regexes = {
             "player_name": re.compile('Representing (.*)'),
 
@@ -298,6 +299,7 @@ class Converter(object):
                     self.fill(self.char, subkey, subregex, data)
             else:
                 self.fill(self.char, key, regex, data)
+        return self.char
 
 if __name__ == "__main__":
     data = open(os.path.join('Characters', sys.argv[1])).read()
