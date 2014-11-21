@@ -17,10 +17,20 @@
     },
     "Daggers": {
         "range": "Melee weapon",
-        "W": "1d4"
+        "W": "1d4",
+        "style": "one-handed"
     },
     "Quarterstaff": {
         "range": "Melee weapon",
         "W": "1d8"
+    },
+    "Mace": {
+        "range": "Melee weapon",
+        "W": "1d8",
+        "style": "versatile"
+    },
+    "Hand crossbow": {
+        "range": "Ranged weapon",
+        "W": "1d6"
     }
 }

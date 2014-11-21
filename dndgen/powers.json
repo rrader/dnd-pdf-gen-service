@@ -127,10 +127,6 @@
     "Spend an Action Point": {
         "charsheet": "no"
     },
-    "Get Over Here": {
-        "utility": "yes",
-        "level": 2
-    },
     "Feather Fall": {
         "utility": "yes",
         "level": 2
@@ -301,5 +297,103 @@
         "target": "the triggering creature",
         "range": "Ranged 10",
         "comment": "<b>Effect:</b> The target takes no damage from the fall, and consequently does not fall prone at the end of it."
+    },
+    "Cleave": {
+        "charsheet": "yes",
+        "title": "Fighter Attack 1",
+        "action": "Standard",
+        "target": "one creature",
+        "attack": "Str",
+        "vs": "AC",
+        "range": "Melee weapon",
+        "hit": "1x[{W}]{c[str][1]}[str] damage<br/>21st level: 2x[{W}]{c[str][1]}[str] damage",
+        "hit_comment": "... and an enemy adjacent to you other than the target takes damage equal to {c[str][1]}[str]"
+    },
+    "Tide of Iron": {
+        "charsheet": "yes",
+        "title": "Fighter Attack 1",
+        "action": "Standard",
+        "target": "one creature",
+        "attack": "Str",
+        "vs": "AC",
+        "range": "Melee weapon",
+        "hit": "1x[{W}]{c[str][1]}[str] damage<br/>21st level: 2x[{W}]{c[str][1]}[str] damage",
+        "hit_comment": "... and you push the target 1 square if it is your size, smaller than you, or one size category larger. You can shift into the space that the target occupied.",
+        "comment": "<b>Requirement:</b> using a shield"
+    },
+    "Dragon Breath, Cold": {
+        "charsheet": "yes",
+        "title": "Dragonborn Racial Power",
+        "action": "Minor",
+        "target": "All creatures in area",
+        "attack": "complicated",
+        "attack_comment": "{c[str][1]}[str]+2  OR {c[con][1]}[con]+2  OR {c[dex][1]}[dex]+2 ",
+        "range": "blast 3",
+        "hit": "1d6{c[con][1]}[con] damage<br/>11th level: attack+4 and 2d6{c[con][1]}[con] damage<br/>21th level: attack+6 and 3d6{c[con][1]}[con] damage",
+        "comment": "<b>Special:</b> When you create your character, choose Strength, Constitution, or Dexterity as the ability score you use when making attack rolls with this power. You also choose the power's damage type: acid, cold, fire, lightning, or poison. These two choices remain throughout your character's life and do not change the power's other effects. "
+    },
+    "Dragon Breath, Acid": {
+        "charsheet": "yes",
+        "title": "Dragonborn Racial Power",
+        "action": "Minor",
+        "target": "All creatures in area",
+        "attack": "complicated",
+        "attack_comment": "{c[str][1]}[str]+2  OR {c[con][1]}[con]+2  OR {c[dex][1]}[dex]+2 ",
+        "range": "blast 3",
+        "hit": "1d6{c[con][1]}[con] damage<br/>11th level: attack+4 and 2d6{c[con][1]}[con] damage<br/>21th level: attack+6 and 3d6{c[con][1]}[con] damage",
+        "comment": "<b>Special:</b> When you create your character, choose Strength, Constitution, or Dexterity as the ability score you use when making attack rolls with this power. You also choose the power's damage type: acid, cold, fire, lightning, or poison. These two choices remain throughout your character's life and do not change the power's other effects. "
+    },
+    "Dragon Breath, Fire": {
+        "charsheet": "yes",
+        "title": "Dragonborn Racial Power",
+        "action": "Minor",
+        "target": "All creatures in area",
+        "attack": "complicated",
+        "attack_comment": "{c[str][1]}[str]+2  OR {c[con][1]}[con]+2  OR {c[dex][1]}[dex]+2 ",
+        "range": "blast 3",
+        "hit": "1d6{c[con][1]}[con] damage<br/>11th level: attack+4 and 2d6{c[con][1]}[con] damage<br/>21th level: attack+6 and 3d6{c[con][1]}[con] damage",
+        "comment": "<b>Special:</b> When you create your character, choose Strength, Constitution, or Dexterity as the ability score you use when making attack rolls with this power. You also choose the power's damage type: acid, cold, fire, lightning, or poison. These two choices remain throughout your character's life and do not change the power's other effects. "
+    },
+    "Dragon Breath, Lightning": {
+        "charsheet": "yes",
+        "title": "Dragonborn Racial Power",
+        "action": "Minor",
+        "target": "All creatures in area",
+        "attack": "complicated",
+        "attack_comment": "{c[str][1]}[str]+2  OR {c[con][1]}[con]+2  OR {c[dex][1]}[dex]+2 ",
+        "range": "blast 3",
+        "hit": "1d6{c[con][1]}[con] damage<br/>11th level: attack+4 and 2d6{c[con][1]}[con] damage<br/>21th level: attack+6 and 3d6{c[con][1]}[con] damage",
+        "comment": "<b>Special:</b> When you create your character, choose Strength, Constitution, or Dexterity as the ability score you use when making attack rolls with this power. You also choose the power's damage type: acid, cold, fire, lightning, or poison. These two choices remain throughout your character's life and do not change the power's other effects. "
+    },
+    "Steel Serpent Strike": {
+        "charsheet": "yes",
+        "title": "Fighter Attack 1",
+        "action": "Standard",
+        "target": "one creature",
+        "attack": "Str",
+        "vs": "AC",
+        "range": "Melee weapon",
+        "hit": "2x[{W}]{c[str][1]}[str] damage",
+        "hit_comment": "... and the target is slowed and cannot shift until the end of your next turn."
+    },
+    "Brute Strike": {
+        "charsheet": "yes",
+        "title": "Fighter Attack 1",
+        "action": "Standard",
+        "target": "one creature",
+        "attack": "Str",
+        "vs": "AC",
+        "range": "Melee weapon",
+        "hit": "3x[{W}]{c[str][1]}[str] damage"
+    },
+    "Get Over Here": {
+        "utility": "yes",
+        "level": 2,
+        "title": "Fighter Utility 2",
+        "action": "Move",
+        "range": "Melee 1",
+        "target": "One ally",
+        "comment": "<b>Effect:</b> You slide the target up to 2 squares to a square adjacent to you.",
+        "is_weapon": "no"
     }
 }

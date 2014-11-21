@@ -42,19 +42,25 @@ def get_power_info(name):
     name = re.sub('\[.*?\]', '', name).strip()
     if name in POWERS:
         data.update(POWERS[name])
+    elif name[-1] == 'v' and name[:-1] in POWERS:
+        data["name"] = name[:-1]
+        data.update(POWERS[name[:-1]])
     else:
         print("Power " + name + " not found")
     return data
 
 def get_weapon_info(name):
     data = {
-        "name": name,
+        "weapon_name": name,
         "range": "[no]",
         "W": "[no]",
     }
     name = re.sub('\[.*?\]', '', name).strip()
     if name in WEAPONS:
         data.update(WEAPONS[name])
+    elif name[-1] == 'v' and name[:-1] in WEAPONS:
+        data["weapon_name"] = name[:-1]
+        data.update(WEAPONS[name[:-1]])
     else:
         print("Weapon " + name + " not found")
     return data
