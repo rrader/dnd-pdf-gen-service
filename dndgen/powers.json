@@ -135,11 +135,11 @@
         "utility": "yes",
         "level": 2
     },
-    "Ghost Sound": {
+    "Use Implement": {
         "charsheet": "no"
     },
-    "Disrupt Undead": {
-        "utility": "yes"
+    "Ghost Sound": {
+        "charsheet": "no"
     },
     "Light": {
         "charsheet": "no"
@@ -214,5 +214,92 @@
         "range": "Close blast 3",
         "hit": "{c[dex][1]}[dex] damage, and the target is blinded until the end of your next turn.",
         "comment": "<b>Miss:</b> {c[dex][1]}[dex] damage, and the target is not blinded."
+    },
+    "Magic Missile": {
+        "charsheet": "yes",
+        "title": "Wizard Attack 1",
+        "action": "Standard",
+        "target": "one creature",
+        "attack": "always",
+        "range": "Ranged 20",
+        "hit": "2{c[int][1]}[int] damage<br/>11 level: 3{c[int][1]}[int] damage<br/>21 level: 5{c[int][1]}[int] damage"
+    },
+    "Scorching Burst": {
+        "charsheet": "yes",
+        "title": "Wizard Attack 1",
+        "action": "Standard",
+        "target": "each creature in the area of effect",
+        "attack": "Int",
+        "vs": "Reflex",
+        "range": "area burst 1 within 10",
+        "hit": "1d6{c[int][1]}[int] damage<br/>21 level: 2d6{c[int][1]}[int]"
+    },
+    "Thunderwave": {
+        "charsheet": "yes",
+        "title": "Wizard Attack 1",
+        "action": "Standard",
+        "target": "each creature in the area of effect",
+        "attack": "Int",
+        "vs": "Fort",
+        "range": "Close blast 3",
+        "hit": "1d6{c[int][1]}[int] damage<br/>21 level: 2d6{c[int][1]}[int]",
+        "hit_comment": "and you push the target a number of squares up to {c[wis][1]}[wis]."
+    },
+    "Force Orb": {
+        "charsheet": "yes",
+        "title": "Wizard Attack 1",
+        "action": "Standard",
+        "target": "one creature or object",
+        "attack": "Int",
+        "vs": "Reflex",
+        "range": "Ranged 20",
+        "hit": "2d8{c[int][1]}[int] damage<br/>21 level: 2d6{c[int][1]}[int]",
+        "hit_comment": "and you make the <i>secondary attack: <br/>    <b>Secondary range:</b> area burst 1 centered on the primary target <br/> <b>Secondary target:</b> each enemy within the secondary area of effect other than the primary target<br/><b>Secondary attack:</b> {c[int][1]}[int] vs. Reflex<br/><b>Hit:</b> 1d10{c[int][1]}[int] damage.</i>"
+    },
+    "Flaming Sphere": {
+        "charsheet": "yes",
+        "title": "Wizard Attack 1",
+        "action": "Standard",
+        "target": "one creature adjacent to the sphere",
+        "attack": "Int",
+        "vs": "Reflex",
+        "range": "Ranged 20",
+        "hit": "2d6{c[int][1]}[int] damage",
+        "hit_comment": "The sphere persists until the end of your next turn",
+        "comment": "You conjure a Medium flaming sphere in an unoccupied square within range. The sphere occupies its square, and it lasts until the end of your next turn. Any creature that starts its turn adjacent to the sphere takes 1d4{c[int][1]}[int] fire damage. As a move action, you can move the sphere up to 6 squares."
+    },
+    "Sleep": {
+        "charsheet": "yes",
+        "title": "Wizard Attack 1",
+        "action": "Standard",
+        "target": "each creature in the area of effect",
+        "attack": "Int",
+        "vs": "Will",
+        "range": "area burst 2 within 20",
+        "hit": "The target is slowed (save ends).<br/><b>First failed saving throw:</b> The target is unconscious instead of slowed (save ends).",
+        "hit_comment": "The sphere persists until the end of your next turn",
+        "comment": "<b>Miss:</b> The target is slowed (save ends)."
+    },
+    "Disrupt Undead": {
+        "charsheet": "yes",
+        "utility": "yes",
+        "title": "Wizard Utility",
+        "action": "Minor",
+        "target": "One undead creature",
+        "is_weapon": "no",
+        "range": "Ranged 5",
+        "range": "personal",
+        "comment": "<b>Effect:</b> The target's necrotic resistance, if any, is reduced by 5 until the end of your turn."
+    },
+    "Feather Fall": {
+        "charsheet": "yes",
+        "utility": "yes",
+        "title": "Wizard Utility 2",
+        "action": "Free",
+        "attack": "trigger",
+        "is_weapon": "no",
+        "target": "the triggering creature",
+        "range": "Ranged 10",
+        "comment": "<b>Effect:</b> The target takes no damage from the fall, and consequently does not fall prone at the end of it."
     }
 }

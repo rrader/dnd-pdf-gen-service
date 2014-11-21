@@ -18,5 +18,9 @@
     "Daggers": {
         "range": "Melee weapon",
         "W": "1d4"
+    },
+    "Quarterstaff": {
+        "range": "Melee weapon",
+        "W": "1d8"
     }
 }

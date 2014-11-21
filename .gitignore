@@ -1,4 +1,5 @@
 venv
+*.fdf
 *.pyc
 staticfiles
 .idea

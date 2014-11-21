@@ -91,7 +91,7 @@ def gen(data, output):
                         """.format(tp=tp.capitalize(), **info), simple_paragraph)
             blocks.append(text)
             if info['is_weapon'] == "yes":
-                if info["attack"] != "trigger":
+                if info["attack"] not in ["trigger", "always"]:
                     text = Paragraph("""
                                      <b>Attack:</b> {attack} vs. {vs} [{attack_val[0]}] =<br/>= {attack_val[1]}
                                      """.format(**info), highlighted_paragraph)
@@ -106,15 +106,18 @@ def gen(data, output):
                                     <b>Hit w/ {weapon}:</b> {hit}
                                     """.format(weapon=weapon, hit=hit), highlighted_paragraph2)
                     blocks.append(text)
+                if not weapons:
+                    try:
+                        hit = info["hit"].format(**info)
+                        text = Paragraph(
+                                        """
+                                        <b>Hit:</b> {hit}
+                                        """.format(hit=hit), highlighted_paragraph2)
+                        blocks.append(text)
+                    except:
+                        continue
                 if info["hit_comment"]:
                     text = Paragraph(info["hit_comment"].format(**info), highlighted_paragraph2)
-                    blocks.append(text)
-                if not weapons:
-                    hit = info["hit"].format(**info)
-                    text = Paragraph(
-                                    """
-                                    <b>Hit:</b> {hit}
-                                    """.format(hit=hit), highlighted_paragraph2)
                     blocks.append(text)
             if info["comment"]:
                 text = Paragraph(info["comment"].format(**info), simple_paragraph)
